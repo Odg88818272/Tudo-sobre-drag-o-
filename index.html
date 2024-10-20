@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+</head>
+<style>
+          body {
+                  background-color: #001f3f;
+           
+            color: white
+            
+            
+          }
+
+         p { 
+           text-align: center;
+         }
+      h1 {
+        text-align: center;
+      }
+button {
+    margin-top: 20px; /* Espaço acima do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #87CEFA; /* Cor de fundo do botão (verde) */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas do botão */
+    border-radius: 5px; /* Cantos arredondados do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    display: block; /* Para que o botão possa ser centralizado */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    width: 200px; /* Largura do botão */
+}
+#myImage {
+    display: none; /* Oculta a imagem inicialmente */
+    margin: 20px auto; /* Espaço acima e centraliza horizontalmente */
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Faz a imagem ser um bloco para centralização */
+}
+#dragonText {
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaço acima do texto */
+    max-width: 600px; /* Largura máxima do texto */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Aumenta o espaço entre as linhas */
+}
+  p {
+    font-size: 18px;
+  }
+  
+</style>
+
+  <h1>
+    TUDO SOBRE UM DRAGÃO
+  </h1>
+<p>
+  Clique abaixo e veja um dragão
+</p> 
+<button id="showImageButton">MOSTRAR IMAGEM</button>
+<img id="myImage" src="https://img.freepik.com/fotos-premium/dragao-azul-em-um-fundo-de-lua_853177-16436.jpg?w=1060" alt="Imagem Exemplo" style="display: none; margin-top: 20px; width: 300px;"> <!-- Imagem oculta -->
+<p id="dragonText">Dragões são criaturas míticas que aparecem em diversas culturas ao redor do mundo, cada uma com suas próprias interpretações e simbolismos. Aqui estão alguns aspectos fascinantes sobre os dragões:
+
+  <h1>CARCTERISTICAS GERAIS</h1>
+
+  <p>Os dragões são frequentemente descritos como grandes répteis com asas, capazes de voar e, em muitas tradições, de cuspir fogo. Eles variam em tamanho, forma e cor, e muitas vezes possuem garras afiadas e longas caudas.</p>
+
+  <H1>TIPOS DE DRAGÕES</H1>
+
+  <p>Dragões Ocidentais: Comumente retratados na mitologia europeia, os dragões ocidentais têm um aspecto ameaçador, com escamas duras e a capacidade de soltar fogo. São frequentemente associados a tesouros e a histórias de heroísmo, como na lenda de São Jorge.
+
+Dragões Orientais: Em contrapartida, os dragões da cultura asiática, especialmente na China e no Japão, são vistos como símbolos de boa sorte, sabedoria e poder. Eles geralmente têm corpos longos e esguios, sem asas, e são considerados guardiões da água e do tempo.
+
+Dragões da Mitologia Nórdica: Na mitologia nórdica, dragões como Fafnir e Nidhogg estão associados a temas de ganância e destruição. Eles costumam ser criaturas que guardam tesouros e representam desafios que heróis devem enfrentar.</p>
+
+
+  <h1>REPRESENTAÇOES CULTURAIS</h1>
+
+  <p>Dragões aparecem em contos populares, literatura, filmes e jogos. Exemplos notáveis incluem:
+
+"O Hobbit" de J.R.R. Tolkien: Smaug, o dragão, é um personagem central que guarda um vasto tesouro.
+
+"Game of Thrones" de George R.R. Martin: Os dragões são símbolos de poder e herança da Casa Targaryen.
+
+Mitologia Chinesa: Os dragões são frequentemente retratados em festivais e artes, simbolizando prosperidade e força.</p>
+
+
+  <h1>SIMBOLISMO</h1>
+
+  <p>Os dragões simbolizam tanto o bem quanto o mal, dependendo da cultura. Podem representar poder, proteção e sabedoria, ou, em outras tradições, destruição e medo. Em muitas histórias, dragões são seres ambivalentes que desafiam heróis a provarem seu valor.
+
+Dragões na Ciência e na Ficção
+
+Embora dragões sejam criaturas míticas, algumas teorias sugerem que lendas de dragões podem ter se originado de avistamentos de dinossauros ou grandes répteis. Na ficção, dragões continuam a fascinar o público, aparecendo em histórias de fantasia e ficção científica, sendo criados com características únicas e histórias envolventes.</p>
+
+  <h1>CONCLUSÃO</h1>
+
+  <p>Os dragões são criaturas que transcendem fronteiras culturais e temporais, permanecendo como ícones poderosos da imaginação humana. Sua presença nas narrativas continua a inspirar e a intrigar, refletindo medos, esperanças e a eterna busca por compreensão do desconhecido.</p>
+
+</p>
+<script>
+    // Seleciona o botão e a imagem
+    const button = document.getElementById('showImageButton');
+    const image = document.getElementById('myImage');
+
+    // Adiciona um evento de clique ao botão
+    button.addEventListener('click', () => {
+        image.style.display = 'block'; // Mostra a imagem
+    });
+</script>
+</body>
+</html>
